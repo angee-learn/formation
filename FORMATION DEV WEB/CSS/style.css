@@ -1,0 +1,204 @@
+body{
+    margin: 20px 30px;
+    background-color: #D9D9D9;
+
+}
+
+
+
+
+
+
+div{
+    border: px solid #000; 
+    background-color: #fff;
+}
+div.tete{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+div.tete img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 40px 40px;
+    width: 70px; 
+    height: 70px;
+}
+div.tete h1{
+    font-size: 40px;
+    color: rgba(255, 0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 2px rgb(252, 249, 249);
+    text-align: center;
+}
+div.tete ul>a li{
+    color: rgb(0, 0, 0);
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+    padding: 20px;
+    
+
+}
+a{
+    border: 2px #ffffff solid;
+    background-color: bisque;
+    text-decoration: none;
+
+}
+a:hover{
+    color: white;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+h1.pol{
+    border-bottom: 2px solid black;
+    border-style:groove;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    background-color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    .flagPologne{
+        width: 180px;
+        float: left;
+    }
+.pol{ 
+    font-size: 50px ;
+    color: rgb(226, 64, 64);
+    padding: 1.5rem;
+}
+.cardPologne{
+    float: left;
+    margin-right: 1rem;
+
+}
+.text1, p{
+margin-right: 1rem;
+margin-left: 1rem;
+text-align: justify;
+
+}
+span{
+    color: rgb(8, 101, 155);
+    font-weight: bold;
+}
+.imgPr{
+    width: 350px;
+    height: 400px;
+    float: left;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+button.but{
+    box-shadow: 5px;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(236, 97, 97);
+
+}
+button.but:hover{
+    color: rgb(243, 5, 5);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+}
+
+
+a:hover {
+    background-color: gold;
+  }
+  ul{
+    display:flex;
+  }
+  /*pour le formulaire*/
+  .container{
+    width: 100%;
+    
+    margin-top: 10%;
+  }
+  .technix{
+    text-align: center;
+    border: solid;
+  }
+  .technix>h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+  }
+  .profile{
+    float: left;
+    width: 8rem;
+    height:100px;
+    fill: red;
+    margin-top: 1rem;
+  }
+  .connexion{
+    padding-left: 60px;
+  }
+  .connexion>h2{
+    font-size: 2rem;
+    font-style: oblique;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #BA9F85;
+
+    border: 1px solid #000000;
+    }
+  div{
+    border:1px solid;
+  }
+  form{
+    margin-right:60px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  label{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  input[type="email"], input[type="password"]{
+    width: 30rem;
+    height: 3rem;
+  }
+  input[type="reset"]{
+    width:7rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+  }
+  input[type="submit"]{
+    width:7rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    font-size: 20px;}
